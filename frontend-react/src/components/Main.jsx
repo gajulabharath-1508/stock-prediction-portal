@@ -1,8 +1,13 @@
 import React from 'react'
 import Buttons from './Buttons'
+import Footer from './Footer.jsx'
+import Header from './Header.jsx'
+
+
 const Main = () => {
   return (
     <>
+    
     <div className='container'>
         <div className='p-5 text-center bg-light-dark rounded'>
             <h1 className='text-light'>Stock Prediction Center</h1>
@@ -12,6 +17,7 @@ const Main = () => {
         </div>
       
     </div>
+    
     </>
   )
 }
