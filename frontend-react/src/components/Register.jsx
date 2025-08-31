@@ -63,7 +63,7 @@ const Register = () => {
 
               {success && <div className='alert alert-success'>Registration Successfull</div>}
               {loading ?(
-                <button type='submit' className='btn btn-info d-block mx-auto' disabled> <FontAwesomeIcon icon={faSpinner} spim/>Please wait..</button>
+                <button type='submit' className='btn btn-info d-block mx-auto' disabled> <FontAwesomeIcon icon={faSpinner} spin/>Please wait..</button>
               ):(
                 <button type='submit' className='btn btn-info d-block mx-auto'>Register</button>
 
